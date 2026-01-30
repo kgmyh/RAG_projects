@@ -1,0 +1,20 @@
+- rich: https://rich.readthedocs.io/en/latest/markup.html
+- Rich Markup 지정 방법
+- Rich는 콘솔 출력용 마크업을 제공합니다. Console.print()에 문자열로 전달하면 렌더링됩니다.
+
+- 기본 형식
+    - 태그는 []로 감싸 사용합니다.
+    - 닫는 태그는 [/] 또는 [/태그].
+    - 자주 쓰는 스타일
+        - 굵게: [bold]텍스트[/]
+        - 기울임: [italic]텍스트[/]
+        - 밑줄: [underline]텍스트[/]
+        - 색상: [red]텍스트[/], [green]텍스트[/]
+        - 배경색: [on blue]텍스트[/]
+        - 조합: [bold red on white]텍스트[/]
+        - 링크
+            - `[link=https://example.com]링크[/link]`
+    - 코드 스타일
+        - `[code]텍스트[/code]`
+    - 이스케이프
+        - `[ 문자 출력: \[ 또는 [[`
